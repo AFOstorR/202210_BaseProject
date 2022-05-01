@@ -1,0 +1,20 @@
+.dato{
+  background-color: white;
+  color: black;
+}
+
+.fondo{
+  border: 20px solid;
+  border-radius: 60px;
+  border-color: white;
+}
+
+.enc1{
+  background-color: rgb(34, 51, 146);
+  color: white;
+}
+
+.enc2{
+  background-color: black;
+  color: white;
+}
