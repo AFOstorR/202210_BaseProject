@@ -24,18 +24,6 @@
   font-size: 20
 }
 
-.trapezoid{
-  position: relative;
-  background: blue;
-  margin-left: 50px;
-  color: white;
-}
-.trapezoid:after{
-  position: absolute;
-  content: '';
-  /*left: -50px;*/
-  top: 0px;
-  border-style: solid;
-  border-color: blue transparent blue transparent;
-  /*border-width: 100px 0px 0px 50px;*/
+.infoFinal{
+  text-align: center;
 }
