@@ -1,12 +1,17 @@
-<div class="fondo">
+<div class="container-fluid fondo">
+  <div class="row"><h4>tusegundazo.com</h4></div>
   <div class="row">
   <div class="col">
+    <div class="row enc0"></div>
     <div class="row enc1">
-    <h4 id="enc1">COMERCIALIZACIÓN DE AUTOMOTORES</h4>
-  </div>
-  <div class="row enc2">
-    <h4 id="enc2">NUEVOS Y USADOS</h4>
-  </div>
+      <h4>COMERCIALIZACIÓN DE AUTOMOTORES</h4>
+    </div>
+    <div class="row">
+      <div class="col enc2">
+        <h5>NUEVOS Y USADOS</h5>
+      </div>
+      <div class="col"></div>
+    </div>
   </div>
     <div class="col">
       <img src="https://www.elcarrocolombiano.com/wp-content/uploads/2016/12/20161203-VOLKSWAGEN-GOL-GT-CONCEPT-01.jpg">
@@ -31,6 +36,12 @@
             <td class="dato">{{ vehiculo.modelo }}</td>
           </tr>
         </tbody>
+      </table>
+      <table>
+        <tr *ngFor="let estadistica of estadisticas">
+          <td>Total {{ estadistica[0]}}: </td>
+          <td>   {{estadistica[1] }}</td>
+        </tr>
       </table>
     </div>
     <div class="col"></div>

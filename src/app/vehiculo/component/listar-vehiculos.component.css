@@ -9,6 +9,10 @@
   border-color: white;
 }
 
+.enc0{
+  height: 140px;
+}
+
 .enc1{
   background-color: rgb(34, 51, 146);
   color: white;
@@ -17,4 +21,21 @@
 .enc2{
   background-color: black;
   color: white;
+  font-size: 20
+}
+
+.trapezoid{
+  position: relative;
+  background: blue;
+  margin-left: 50px;
+  color: white;
+}
+.trapezoid:after{
+  position: absolute;
+  content: '';
+  /*left: -50px;*/
+  top: 0px;
+  border-style: solid;
+  border-color: blue transparent blue transparent;
+  /*border-width: 100px 0px 0px 50px;*/
 }
